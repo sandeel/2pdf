@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/bin/libreoffice --headless --invisible --convert-to pdf *.pptx *.ppt *.doc *.docx \
+&& rm -f *.pptx *.ppt
+
